@@ -10,7 +10,7 @@
   </Manifest>
 
   <Path name = "/SharpDevelop/Workbench/MainMenu">
-    <MenuItem id = "File" label    = "&amp;File" type="Menu"></MenuItem>
+    <MenuItem id = "MenuItemTest" label    = "TEST!" type="Menu"></MenuItem>
   </Path>
 
 </AddIn>
