@@ -1,0 +1,16 @@
+﻿<AddIn name = "XmlViewAddin"
+       author = "Boris Kozorovitzky"
+       description = "Adds the functionality to easily view XML data directly from the editor">
+  <Runtime>
+    <Import assembly = "XmlViewAddin.dll"/>
+  </Runtime>
+
+  <Manifest>
+    <Identity name="XmlViewAddin" version = "0.0.1.0" />
+  </Manifest>
+
+  <Path name = "/SharpDevelop/Workbench/MainMenu">
+    <MenuItem id = "File" label    = "&amp;File" type="Menu"></MenuItem>
+  </Path>
+
+</AddIn>
