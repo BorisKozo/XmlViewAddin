@@ -9,8 +9,10 @@
     <Identity name="XmlViewAddin" version = "0.0.1.0" />
   </Manifest>
 
-  <Path name = "/SharpDevelop/Workbench/MainMenu">
-    <MenuItem id = "MenuItemTest" label    = "TEST!" type="Menu"></MenuItem>
+  <Path name = "/SharpDevelop/ViewContent/TextEditor/ContextMenu">
+    <MenuItem id="OpenXmlView" insertafter="GoToLine" insertbefore="InsertSeparator"
+            label = "Open in XML viewer"
+            class = "XmlViewAddin.OpenXmlViewCommand"/>
   </Path>
 
 </AddIn>
