@@ -92,7 +92,7 @@ The next thing we do is to configure the class library to be built into the foll
 (we create this folder manually first) and the build action of my ```.addin``` file to *Copy always*. This will copy the 
 update version of my addin directly to VuGen every time we build it. 
 For easier debugging we set the Start Action of my debugger to start VuGen by pointing it to *%LR_DIR%\bin\vugen.exe*.
-We can "run" the addin (press F5), a VuGen should start and the main menu should contain our item:
+We can "run" the addin by pressing F5. An instance of VuGen should start and the main menu should contain our item:
 
 ![VuGen with the new menu item](/img/i1.png "VuGen with the new menu item")
 
@@ -103,9 +103,9 @@ not always possible.
 In this step we add a menu item to the context menu of the editor. We start by adding a menu item
 to the context menu of the editor pane. To do this we must first find the ```path``` of this
 context menu. We open an empty script and right click the editor to see where we want to place 
-the menu item, it seems that the best place is right after the "Go to Step in Replay log" item. 
+the menu item. It seems that the best place is right after the "Go to Step in Replay log" item. 
 We search for the item name throughout all the ```.addin``` files. We found one instance of this string
-in the ```VuGenDebugger.addin``` so lets copy it to our addin file with the relevant changed.
+in the ```VuGenDebugger.addin``` so let's copy it to our addin file with the relevant changed.
 
 ```xml
   <Path name = "/SharpDevelop/ViewContent/TextEditor/ContextMenu">
@@ -222,7 +222,7 @@ we pass the read XML to the display component. The code looks something like thi
 ## Step 4 - Show the XML in a nice way
 Now that we have the XML string we want to show it nicely in a modal dialog. We could open
  a regular dialog and use a textbox to display the XML but we can simply reuse the VuGen dialogs
-framework and the VuGen XML viewer to display our information. First we add the dialogs framework, we reference
+framework and the VuGen XML viewer to display our information. First we add the dialogs framework. We reference
 the following dlls: ```HP.Utt.Dialog.dll```, ```HP.Utt.Common.dll```, and ```HP.LR.VuGen.Common.dll``` from *%LR_DIR%\bin\* and ```PresentationFramework```, ```System.Xaml```, and ```WindowsBase```
 from the GAC (the later three are needed to use the WPF framework and are not directly related to VuGen).
 Next, we reference the VuGen XML viewer component conveniently named ```HP.LR.VuGen.XmlViewer.dll``` from
