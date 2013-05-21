@@ -10,6 +10,11 @@ We are going to create a new VuGen ```addin``` which displays XML content from a
 a separate window directly from the script. The goal here is not to provide some highly
 useful functionality but to introduce the readers to the VuGen extensibility mechanism.
 
+###Compilation Note
+To compile the project you must add *%LR_DIR%\bin* to the reference paths of the project.
+There is a compiled version in the *bin* directory in the root of the repository. If you 
+don't want to compile yourself you can copy the content of this directory to *%LR_DIR%\addins\extra\XmlViewAddin*.
+
 ## Addins
 ### Directory Structure
 VuGen 11.5x is based on [SharpDevelop 4.1](http://www.icsharpcode.net/opensource/sd/) and therefore it 

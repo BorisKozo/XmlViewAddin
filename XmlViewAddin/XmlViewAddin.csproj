@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>..\..\..\Program Files %28x86%29\HP\LoadRunner\AddIns\extra\XmlViewAddin\</OutputPath>
+    <OutputPath>C:\Program Files %28x86%29\HP\LoadRunner\AddIns\extra\XmlViewAddin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -32,35 +32,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HP.LR.VuGen.Common, Version=11.50.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.LR.VuGen.Common.dll</HintPath>
+      
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.LR.VuGen.XmlViewer">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.LR.VuGen.XmlViewer.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.Utt.CodeEditor">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.Utt.CodeEditor.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.Utt.Common">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.Utt.Common.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.Utt.Core">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.Utt.Core.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="HP.Utt.Dialog">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\HP.Utt.Dialog.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="ICSharpCode.Core">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\ICSharpCode.Core.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="ICSharpCode.SharpDevelop">
-      <HintPath>..\..\..\Program Files (x86)\HP\LoadRunner\bin\ICSharpCode.SharpDevelop.dll</HintPath>
+
       <Private>False</Private>
     </Reference>
     <Reference Include="PresentationCore" />
