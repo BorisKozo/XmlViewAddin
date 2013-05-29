@@ -1,3 +1,7 @@
+XmlViewAddin is now part of the VuGenPowerPack and is available from here: [https://github.com/BorisKozo/VuGenPowerPack](https://github.com/BorisKozo/VuGenPowerPack)
+
+This repository will not be updated anymore.
+
 XmlViewAddin
 ============
 
